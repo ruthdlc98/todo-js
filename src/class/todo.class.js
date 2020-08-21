@@ -3,6 +3,7 @@ export class Todo {
         this.tarea = tarea;
         this.id = new Date().getTime();
         this.creado = Date();
+        this.completado= false;
     }
 
 }
