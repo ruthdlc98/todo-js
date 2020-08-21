@@ -5,6 +5,8 @@ import { creartodoHtml } from './js/componentes';
 
 export const todoList = new TodoList();+
 todoList.todos.forEach(todo => creartodoHtml(todo));
+
+console.log('Todos: ', todoList.todos);
 /*
 const tarea1 = new Todo('Aprender JavaScript');
 todoList.nuevo(tarea1);
